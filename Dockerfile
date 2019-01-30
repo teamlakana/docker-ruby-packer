@@ -1,8 +1,8 @@
-FROM ruby:2.5.1-alpine
-MAINTAINER "Steve Burns <steve@tacoshell.sh>"
+FROM ruby:2.5.3-alpine
+MAINTAINER "SYSAD <sysadmin@lakana.com>"
 
-ENV PACKER_VERSION=1.2.3
-ENV ENV PACKER_SHA256SUM=822fe76c2dfe699f187ef8c44537d10453a1545db620e40b345cf6991a690f7d
+ENV PACKER_VERSION=1.3.4
+ENV ENV PACKER_SHA256SUM=73074f4fa07fe15b5d65a694ee7afae2d1a64f0287e6b40897adee77a7afc552
 
 RUN apk add --update git bash wget openssl
 
